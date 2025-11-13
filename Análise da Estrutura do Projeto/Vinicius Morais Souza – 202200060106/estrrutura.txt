@@ -1,1 +1,196 @@
-
+﻿Listagem de caminhos de pasta para o volume Acer
+O n·mero de sÚrie do volume Ú 0EBB-E86A
+C:.
+|   estrutura.txt
+|   
+\---JARVIS
+    |   .gitignore
+    |   CITATION.cff
+    |   CODE_OF_CONDUCT.md
+    |   CONTRIBUTING.md
+    |   LICENSE
+    |   README.md
+    |   SECURITY.md
+    |   SUPPORT.md
+    |   
+    +---easytool
+    |   |   data_process.py
+    |   |   main.py
+    |   |   README.md
+    |   |   requirements.txt
+    |   |   
+    |   +---assets
+    |   |       front.png
+    |   |       logo.png
+    |   |       
+    |   +---data_funcqa
+    |   |   +---funchub
+    |   |   |       math.py
+    |   |   |       
+    |   |   \---tool_instruction
+    |   |           functions_data.json
+    |   |           tool_dic.jsonl
+    |   |           
+    |   +---data_restbench
+    |   |   \---tool_instruction
+    |   |           tmdb_tool.json
+    |   |           
+    |   +---data_toolbench
+    |   |   \---tool_instruction
+    |   |           API_description_embeddings.zip
+    |   |           toolbench_tool_instruction.json
+    |   |           
+    |   \---easytool
+    |           funcQA.py
+    |           restbench.py
+    |           toolbench.py
+    |           toolbench_retrieve.py
+    |           util.py
+    |           __init__.py
+    |           
+    +---hugginggpt
+    |   |   .dockerignore
+    |   |   Dockerfile.jetson
+    |   |   README.md
+    |   |   
+    |   +---assets
+    |   |       intro.png
+    |   |       logo.png
+    |   |       overview.jpg
+    |   |       prompt_flow.jpg
+    |   |       screenshot_a.jpg
+    |   |       screenshot_q.jpg
+    |   |       
+    |   +---server
+    |   |   |   awesome_chat.py
+    |   |   |   get_token_ids.py
+    |   |   |   models_server.py
+    |   |   |   requirements.txt
+    |   |   |   run_gradio_demo.py
+    |   |   |   
+    |   |   +---configs
+    |   |   |       config.azure.yaml
+    |   |   |       config.default.yaml
+    |   |   |       config.gradio.yaml
+    |   |   |       config.lite.yaml
+    |   |   |       
+    |   |   +---data
+    |   |   |       p0_models.jsonl
+    |   |   |       
+    |   |   +---demos
+    |   |   |       demo_choose_model.json
+    |   |   |       demo_parse_task.json
+    |   |   |       demo_response_results.json
+    |   |   |       
+    |   |   +---models
+    |   |   |       download.ps1
+    |   |   |       download.sh
+    |   |   |       
+    |   |   \---public
+    |   |       \---examples
+    |   |               a.jpg
+    |   |               b.jpg
+    |   |               c.jpg
+    |   |               d.jpg
+    |   |               e.jpg
+    |   |               f.jpg
+    |   |               g.jpg
+    |   |               
+    |   \---web
+    |       |   env.d.ts
+    |       |   index.html
+    |       |   package.json
+    |       |   postcss.config.js
+    |       |   tailwind.config.js
+    |       |   tsconfig.config.json
+    |       |   tsconfig.json
+    |       |   vite.config.ts
+    |       |   
+    |       +---electron
+    |       |       .npmrc
+    |       |       electron-builder.yml
+    |       |       main.js
+    |       |       package.json
+    |       |       preload.js
+    |       |       
+    |       +---public
+    |       |       audio.svg
+    |       |       favicon.ico
+    |       |       video.svg
+    |       |       
+    |       \---src
+    |           |   App.vue
+    |           |   main.ts
+    |           |   
+    |           +---api
+    |           |       chatgpt.ts
+    |           |       hugginggpt.ts
+    |           |       
+    |           +---assets
+    |           |       audio.svg
+    |           |       chatgpt.svg
+    |           |       clip.svg
+    |           |       favicon.ico
+    |           |       huggingface.svg
+    |           |       logo.svg
+    |           |       setting.svg
+    |           |       switch.svg
+    |           |       tailwind.css
+    |           |       
+    |           +---components
+    |           |       Loading.vue
+    |           |       
+    |           +---config
+    |           |       index.ts
+    |           |       
+    |           +---prompt
+    |           |       index.ts
+    |           |       
+    |           +---router
+    |           |       index.ts
+    |           |       
+    |           +---types
+    |           |       index.ts
+    |           |       
+    |           \---views
+    |                   home.vue
+    |                   
+    \---taskbench
+        |   batch_evaluate.sh
+        |   data_engine.py
+        |   evaluate.py
+        |   format_data.py
+        |   generate_graph.py
+        |   graph_sampler.py
+        |   inference.py
+        |   README.md
+        |   requirements.txt
+        |   visualize_graph.py
+        |   
+        +---assets
+        |       backinstruct.png
+        |       eval.png
+        |       logo.png
+        |       logo2.png
+        |       
+        +---data_dailylifeapis
+        |       alignment_ids.json
+        |       data.json
+        |       graph_desc.json
+        |       tool_desc.json
+        |       user_requests.json
+        |       
+        +---data_huggingface
+        |       alignment_ids.json
+        |       data.json
+        |       graph_desc.json
+        |       tool_desc.json
+        |       user_requests.json
+        |       
+        \---data_multimedia
+                alignment_ids.json
+                data.json
+                graph_desc.json
+                tool_desc.json
+                user_requests.json
+                
