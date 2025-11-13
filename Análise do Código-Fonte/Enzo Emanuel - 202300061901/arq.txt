@@ -1,0 +1,34 @@
+//Tutorial de acesso para uso, uso da IA, StarCoder2-3b para análise do Código Jarvis
+
+//1° Etapa: Fazer login no Hugging Face e procurar pela IA desejada, nesse caso estaremos utilizando a StarCoder2-3b
+//2° Etapa: Ao selecionar o StarCoder2, iremos utilizá-lo na dependência escolhida, seja no Hugging Face ou externamente, nesse caso irei utilizar o Google Colab
+//3° Etapa: Após a construção desse espaço virtual, iremos fazer uma série de passos para configurá-lo:
+
+## !pip install transformers accelerate torch
+
+//Isso instala o necessário para usar modelos do Hugging Face.
+
+## from transformers import AutoTokenizer, AutoModelForCausalLM
+## model_name = "bigcode/starcoder2-3b"
+## tokenizer = AutoTokenizer.from_pretrained(model_name)
+## model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")
+
+//Isso instala o Modelo StarCoder2, versão de 3B é mais leve e funciona bem no Colab, e isso também irá carregar o tokenizer e o modelo.
+
+## def comentar_codigo(codigo):
+##   prompt = f"Explique e comente detalhadamente o seguinte código Python:\n\n{codigo}\n\nComentários:"
+##   inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+##  outputs = model.generate(**inputs, max_new_tokens=300, temperature=0.4)
+##  resposta = tokenizer.decode(outputs[0], skip_special_tokens=True)
+##  print(resposta.split('Comentários:')[-1].strip())
+
+//Essa será a função responsável por comentar o código que iremos enviar.
+//E pronto, agora é possível adicionar funções dentro desse ambiente e gerar comentários sobre ela.
+
+## codigo_jarvis = """
+
+//Aqui, entre o duplo parênteses, colocaremos a função que desejamos analisar
+
+## """
+## comentar_codigo(codigo_jarvis)
+
