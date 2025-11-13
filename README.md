@@ -40,12 +40,11 @@ Dentro de cada pasta, há subpastas para cada aluno responsável, contendo seus 
 ├── 📂 Análise da Estrutura do Projeto/
 │   ├── 📂 Adailton Moura da Silva - 2021.../
 │   ├── 📂 David Vieira Reis - 2021.../
-│   └── 📂 João Filipe de Araújo - 2021.../
+│   └── 📂 Vinicius Morais Souza - 2022.../
 │
 ├── 📂 Análise do Código-Fonte/
 │   ├── 📂 Enzo Emanuel - 2023.../
-│   ├── 📂 Rafael Souza Prata - 2023.../
-│   └── 📂 Vinicius Morais Souza - 2022.../
+│   ├── 📂 Rafael Souza Prata - 2023.../ 
 │
 ├── 📂 Análise do Readme/
 │   ├── 📂 André Felipe - 2023.../
