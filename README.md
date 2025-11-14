@@ -61,7 +61,8 @@ Dentro de cada pasta, há subpastas para cada aluno responsável, contendo seus 
 O material escrito e audiovisual contendo os tutoriais da elaboração e execução das atividades de forma detalhada para cada membro está disponível nos links a seguir:
 
 - 📄 **Tutorial Escrito (Relatório Completo):** [Acesse aqui](https://docs.google.com/document/d/1LzsOySSWbhy81r3u3X7ldHWZYF_D6ev-isXvMyRwxqQ/edit?usp=sharing)
-- 🎥 **Tutorial Gravado (Vídeo):** [Link para o vídeo da apresentação]
+- 🎥 **Tutorial Gravado (Vídeo):** [Acesse aqui]
+ (https://drive.google.com/file/d/1nwgLRhP7H86so4XC7LhvmYyNlCcLmOYX/view?usp=drive_link)
 
 ---
 
