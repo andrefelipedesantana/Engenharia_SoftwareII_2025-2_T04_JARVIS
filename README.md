@@ -60,7 +60,7 @@ Esta seção descreve a infraestrutura utilizada e as instruções necessárias 
 
 ## 🔧 Infraestrutura (Ambiente de Execução)
 
-Todas as análises de Inteligência Artificial que exigiram execução de código foram realizadas em ambiente de nuvem, utilizando **Google Colab** (serviço gratuito).
+Todas as análises de Inteligência Artificial que exigiram execução de código e foram realizadas em ambiente de nuvem, utilizando **Google Colab** (serviço gratuito).
 
 **Especificações do ambiente utilizado:**
 
