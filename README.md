@@ -13,6 +13,23 @@ Ele recebe uma tarefa, a divide em subtarefas e as encaminha para outras **LLMs 
 
 ---
 
+## 🎯 Escolha do Projeto (JARVIS)
+
+O projeto escolhido pelo grupo para realizar a análise foi o **JARVIS**.  
+Este projeto chamou a atenção devido às suas funcionalidades e objetivos, pois busca otimizar um elemento amplamente dominante no mundo atual: as **Inteligências Artificiais**.
+
+O JARVIS se baseia em uma **interface central** que utiliza **serviços secundários** para realizar um processo de **especificação e refinamento** das respostas geradas pela IA — aumentando tanto a **confiabilidade** quanto a **velocidade de processamento**.
+
+A atividade correspondente à identificação de possíveis **padrões arquiteturais** do JARVIS foi organizada da seguinte forma:
+
+- Formação de **2 duplas** e **1 quarteto**  
+- Cada grupo analisou um tipo de dado:  
+  - o **README** do projeto  
+  - o **Código-Fonte**  
+  - a **Estrutura Geral** do projeto
+
+---
+
 ## 👥 Equipe
 
 | Nº | Nome                              | Matrícula      |
