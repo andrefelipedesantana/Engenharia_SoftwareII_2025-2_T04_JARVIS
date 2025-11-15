@@ -32,3 +32,29 @@
 ## """
 ## comentar_codigo(codigo_jarvis)
 
+// Como exemplo, utilizei um trecho do código TaskExecutor: 
+class TaskExecutor:
+
+    def __init__(self, tools):
+        self.tools = tools
+
+    def execute(self, plan):
+        results = []
+        for step in plan:
+            tool = self.tools.get(step["tool"])
+            if tool:
+                result = tool.run(step["input"])
+                results.append(result)
+        return results
+// e Como resultado, ele irá retornar: 
+
+## A classe TaskExecutor é responsável por executar cada uma das subtarefas que foram previamente planejadas pelo TaskPlanner, funcionando como o estágio final do pipeline de execução dentro do fluxo geral do JARVIS.
+## A docstring inicial explica que essa classe é encarregada de processar e executar as ações definidas no plano de tarefas, embora esteja escrita de forma mínima e possa ser expandida para maior clareza.
+## O método __init__ recebe um dicionário de ferramentas e armazena esse conjunto, permitindo que cada ferramenta possa ser acessada dinamicamente durante a execução do plano.
+## A atribuição self.tools = tools garante que a instância da classe tenha acesso a todas as ferramentas disponíveis, que serão chamadas conforme descrito no plano de execução.
+## O método execute recebe um parâmetro chamado plan, que deve conter uma lista de passos estruturados, onde cada passo define qual ferramenta deve ser acionada e quais dados devem ser fornecidos como entrada.
+## A variável results é criada como uma lista vazia e servirá para acumular todos os resultados produzidos durante a execução de cada subtarefa do plano.
+## O laço for step in plan percorre cada passo do plano, assumindo que plan contém elementos estruturados como dicionários com informações sobre a ferramenta a ser utilizada.
+## A instrução tool = self.tools.get(step["tool"]) tenta recuperar a ferramenta correspondente ao nome especificado no passo, mas assume que a chave "tool" sempre existe, o que pode gerar um erro se o plano estiver malformado.
+## A verificação if tool garante que o código só tentará executar a subtarefa caso a ferramenta realmente exista no dicionário fornecido, evitando falhas imediatas caso o plano contenha alguma ferramenta desconhecida.
+## A linha result = tool.run(step["input"]) executa a subtarefa chamando o método run da ferramenta, assumindo que o passo também contenha a chave "input", o que pode ser um ponto frágil caso o plano seja inválido.
