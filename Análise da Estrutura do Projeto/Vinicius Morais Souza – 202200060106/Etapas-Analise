@@ -1,0 +1,21 @@
+1º Etapa: Criação do arquivo de estrutura do repositório em árvore
+
+  -> Clone o repositório do JARVIS (https://github.com/microsoft/JARVIS)
+  -> Abra o terminal e rode o comando “ tree /F /A > estrutura.txt ”
+  -> Ao finalizar será criado um arquivo "estrutura.txt" com a estrutura em árvore dos diretórios (Igual ao disponiblizado nesta pasta)
+
+2º Etapa: Acessar o modelo no Hugging Face (https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)
+
+  O modelo utilizado não necessita de nenhuma IDE para implementação, ele possui um widget com interface própria para injetar o prompt e receber a resposta.
+
+3º Etapa: Elaboração do prompt
+
+  -> Com o intuito de testar a análise da IA escolhida , foi elaborado o seguinte prompt:
+
+      (Estrutura em árvore obtida anteriormente)
+      
+      “Consegue me dizer qual as principais arquiteturas presentes nesse projeto pela estrutura e informar qual a mais provável de estar sendo utilizada?”
+  
+
+Os resultados obtidos podem ser encontrados no arquivo "Resultados.txt" nesta pasta.
+
